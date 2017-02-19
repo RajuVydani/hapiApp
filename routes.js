@@ -21,7 +21,7 @@ module.exports = [
 		path : '/json',
 		handler : function(request, reply) {
 			var data = {
-				name : 'raju4',
+				name : 'raju5',
 				city : 'Hyderabad',
 				occupation : 'employee',
 				state : 'Andhra Pradesh'
