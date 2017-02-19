@@ -1,4 +1,4 @@
-//routes can be passed as object or array of objects..
+/	/routes can be passed as object or array of objects..
 
 module.exports = [
 
@@ -21,7 +21,7 @@ module.exports = [
 		path : '/json',
 		handler : function(request, reply) {
 			var data = {
-				name : 'durga',
+				name : 'raju5',
 				city : 'Hyderabad',
 				occupation : 'employee',
 				state : 'Andhra Pradesh'
