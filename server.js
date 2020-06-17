@@ -1,23 +1,3 @@
-const hapi = require('hapi');
-const routes = require('./routes');
-
-const server = new hapi.Server();
-
-server.connection({
-	host: 'localhost',
-	port: '8080'
-});
-
-/*server.route({ test-1
-	method : 'GET',
-	path : '/test',
-	handler : function(request, reply) {
-		reply('hello world !');
-	}
-});*/
-
-server.route(routes);
-
-server.start(function(){
-	console.log('hapi Server Started...');
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2359153149c21e534a2f7170453251f906715a0fb01b6332f61d285412ffb10
+size 406
