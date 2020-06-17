@@ -8,7 +8,7 @@ server.connection({
 	port: '8080'
 });
 
-/*server.route({
+/*server.route({ test-1
 	method : 'GET',
 	path : '/test',
 	handler : function(request, reply) {
